@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h1>FORMS YOU HAVE YO FILL IT!!!!</h1>
+    <fieldset>
+        <legend><EM><H4>AVINASH'S INFORMATION</H4></EM></legend>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="enter your username" maxlength="10"
+        minlength="5" size="40" required />
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password"/>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email"  id="email" palceholder="enter your email" required size="110"/>
+        <br><br>
+        <label for="telephone">Phone No:</label>
+        <input type="tel" name="phone no" id="telephone" size="20" placeholder="enter your yelephone nor" required/>
+        <br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" required min="2023-01-01" max="2025-01-01"/>
+        <br><br>
+        <label for="arrival">Arrival</label>
+        <input type="datetime-local" id="arrival" required/>
+        <br><br>
+        <label for="departure">Departure</label>
+        <input type="datetime-local" id="departure" required/>
+        <br><br>
+        <label for="number">Number</label>
+        <input type="number" id="number" max="5" min="-1"/>
+        <br><br>
+        <input type="checkbox" id="AIML" name="branch" value="AIML"/>
+        <label for="AIML">AIML</label>
+        <br><br>
+        <input type="checkbox" id="CS" name="branch" value="CS"/>
+        <label for="CS">CS</label>
+        <br><br>
+        <input type="checkbox" id="IS" name="branch" value="IS"/>
+        <label for="IS">IS</label>
+        <br><br>
+        <input type="radio" id="yes" name="option" value="yes"/>
+        <label for="yes">YES</label>
+        <br><br>
+        <input type="radio" id="no" name="option" value="no"checked/>
+        <label for="no">NO</label>
+        <br><br>
+        <!--by default value is should be passed by a {checked} attribute in buttons concept-->
+        <h1>GIVE YOUR FEEDBACK!!!</h1>
+        <textarea name="FEEDBACK" rows="10" cols="30" maxlength="5"></textarea>
+        <br><br>
+        <label for="subject"><b>FAVORITE SUBJECT</b></label>
+        <select id="subject" name="subject">
+            <option value="maths">Maths</option>
+            <option value="kannada">Kannada</option>
+            <option value="hindi">Hindi</option>
+            <option value="science">Science</option>
+            <option value="C">C</option>
+            <option value="python" selected>Python</option>
+            <option value="java">Java</option>
+        </select>
+        <br><br>
+        <button type="reset">reset</button>
+        <!-- in button tag we can give image logo by using img tag in input tag we cannot do this-->
+        <input type="submit"/>
+
+</form>
+</fieldset>
+
+    
+</body>
+</html>
